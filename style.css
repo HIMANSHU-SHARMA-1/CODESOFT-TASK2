@@ -16,7 +16,7 @@ body{
 }
 .text{
     color:antiquewhite;
-    font-size:2rem;
+    font-size:26px;
     width:100%;
     white-space: nowrap;
     overflow: hidden;
@@ -487,7 +487,7 @@ button{
 
   .about {
     width: 108%;
-    font-size: 18px;
+    font-size: 17px;
     height: auto;
   }
 
