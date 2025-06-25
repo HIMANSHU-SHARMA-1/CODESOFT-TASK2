@@ -170,7 +170,7 @@ li:hover{
 .section4{
      background:radial-gradient(circle, #4B0082, #1a002c);
     color: antiquewhite;
-    height: 305px;
+    height: auto;
     width: 100vw;
     display: flex;
     justify-content: center;
@@ -449,4 +449,170 @@ button{
 .footer{
     display: flex;
     justify-content: center;
+}
+
+
+/* -------------------- Responsive Layout for Screens <= 768px -------------------- */
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    width:108%;
+    padding: 10px 0;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-right: 0;
+  }
+
+  .wrapper {
+    margin: 20px auto;
+    width: 108%;
+    text-align: center;
+  }
+
+  .section2 {
+    height:fit-content;
+    width:108%;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .about {
+    width: 108%;
+    font-size: 18px;
+    height: auto;
+  }
+
+  .img {
+    width: 90%;
+    height: 200px;
+    background-size: contain;
+  }
+
+  .section3 {
+            display: flex;
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+        padding: 20px;
+  }
+  .skillhead{
+    margin:0px;
+  }
+
+  .section3 li {
+    display: block;
+    margin: 10px 0;
+  }
+  .section4 {
+    height: 619px;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .certihead {
+    text-align:justify;
+    margin: 0 auto 10px;
+  }
+  .certificates {
+              flex-direction: column;
+        padding: 10px;
+        height: 491px;
+        gap: 10px;
+        width: 52%;
+        margin-top: 1px;
+  }
+  .cert1, .cert2, .cert3 {
+     width: 90%;
+  }
+  .services {
+            text-align: center;
+        height: auto;
+        width:108%;
+        padding: 20px 10px;
+  }
+  .services-container {
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+  }
+
+  .service {
+    width: 90%;
+    height: auto;
+  }
+
+  .icon1, .icon2, .icon3 {
+    width: 100%;
+    height: 120px;
+  }
+  .section6{
+            height: auto;
+            width:108%;
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+
+  .projects-grid1, .projects-grid2 {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-left: 0;
+    gap: 20px;
+  }
+
+  .project-card {
+    width: 90%;
+    height: auto;
+  }
+
+  .preview {
+    width: 100%;
+    height: auto;
+  }
+
+  .email {
+         height: 677px;
+         width:108%;
+        padding: 20px 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+  }
+
+  .eimage {
+    width: 26%;
+    height: 11rem;
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    width: 90%;
+    height: auto;
+  }
+
+  input, textarea {
+    width: 100%;
+    height: auto;
+  }
+
+  button {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    padding: 10px;
+    font-size: 0.9rem;
+  }
 }
