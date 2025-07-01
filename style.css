@@ -96,9 +96,8 @@ a{
          transform: translatex(0);
           opacity: 1;
          }
-    
 }
-.img{
+.img {
         height: 333px;
     padding: 47px;
     width: 349px;
@@ -453,166 +452,150 @@ button{
 
 
 /* -------------------- Responsive Layout for Screens <= 768px -------------------- */
-@media screen and (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    height: auto;
-    width:108%;
-    padding: 10px 0;
-    text-align: center;
-    gap: 10px;
-  }
+ @media screen and (max-width: 768px) {
+            .navbar {
+                flex-direction: column;
+                height: auto;
+                padding: 15px;
+                gap: 15px;
+            }
+            
+            .logo {
+                height: 50px;
+                width: 50px;
+            }
 
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-    margin-right: 0;
-  }
+            .nav-links {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
 
-  .wrapper {
-    margin: 20px auto;
-    width: 108%;
-    text-align: center;
-  }
+            .wrapper {
+                margin-top: 20px;
+                padding: 0 15px;
+            }
 
-  .section2 {
-    height:fit-content;
-    width:108%;
-    flex-direction: column;
-    text-align: center;
-    padding: 10px;
-    text-align: center;
-  }
+            .text {
+                font-size: 24px;
+                text-align: center;
+            }
 
-  .about {
-    width: 108%;
-    font-size: 17px;
-    height: auto;
-  }
+            .section2 {
+                flex-direction: column;
+                gap: 30px;
+                padding: 20px 15px;
+            }
 
-  .img {
-    width: 90%;
-    height: 200px;
-    background-size: contain;
-  }
+            .about {
+                font-size: 18px;
+                text-align: center;
+                width: 100%;
+            }
 
-  .section3 {
-            display: flex;
-        align-items: center;
-        height: auto;
-        flex-direction: column;
-        padding: 20px;
-  }
-  .skillhead{
-    margin:0px;
-  }
+            .img {
+                width: 250px;
+                height: 250px;
+            }
 
-  .section3 li {
-    display: block;
-    margin: 10px 0;
-  }
-  .section4 {
-    height: 619px;
-    flex-direction: column;
-    padding: 20px;
-  }
-  .certihead {
-    text-align:justify;
-    margin: 0 auto 10px;
-  }
-  .certificates {
-              flex-direction: column;
-        padding: 10px;
-        height: 491px;
-        gap: 10px;
-        width: 52%;
-        margin-top: 1px;
-  }
-  .cert1, .cert2, .cert3 {
-     width: 90%;
-  }
-  .services {
-            text-align: center;
-        height: auto;
-        width:108%;
-        padding: 20px 10px;
-  }
-  .services-container {
-    flex-direction: column;
-    gap: 20px;
-    padding: 10px;
-  }
+            .section3 {
+                padding: 30px 15px;
+            }
 
-  .service {
-    width: 90%;
-    height: auto;
-  }
+            .skills ul {
+                flex-direction: column;
+                align-items: center;
+            }
 
-  .icon1, .icon2, .icon3 {
-    width: 100%;
-    height: 120px;
-  }
-  .section6{
-            height: auto;
-            width:108%;
-        padding: 20px 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-  }
+            li {
+                font-size: 16px;
+                width: 100%;
+                max-width: 200px;
+                text-align: center;
+            }
 
-  .projects-grid1, .projects-grid2 {
-    flex-direction: column;
-    align-items: center;
-    height: auto;
-    margin-left: 0;
-    gap: 20px;
-  }
+            .section4 {
+                padding: 40px 15px;
+            }
 
-  .project-card {
-    width: 90%;
-    height: auto;
-  }
+            .certificates {
+                flex-direction: column;
+                align-items: center;
+            }
 
-  .preview {
-    width: 100%;
-    height: auto;
-  }
+            .cert1, .cert2, .cert3 {
+                width: 100%;
+                max-width: 300px;
+            }
 
-  .email {
-         height: 677px;
-         width:108%;
-        padding: 20px 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-  }
+            .services {
+                padding: 40px 15px;
+            }
 
-  .eimage {
-    width: 26%;
-    height: 11rem;
-    margin-bottom: 20px;
-  }
+            .services-container {
+                flex-direction: column;
+                align-items: center;
+            }
 
-  #contact {
-    width: 90%;
-    height: auto;
-  }
+            .service {
+                width: 100%;
+                max-width: 350px;
+            }
 
-  input, textarea {
-    width: 100%;
-    height: auto;
-  }
+            .section6 {
+                padding: 40px 15px;
+            }
 
-  button {
-    width: 100%;
-    margin: 10px 0;
-  }
+            .projects-grid1, .projects-grid2 {
+                flex-direction: column;
+                align-items: center;
+            }
 
-  .footer {
-    flex-direction: column;
-    padding: 10px;
-    font-size: 0.9rem;
-  }
-}
+            .project-card {
+                width: 100%;
+                max-width: 350px;
+            }
+
+            .email {
+                flex-direction: column;
+                padding: 40px 15px;
+            }
+
+            .eimage {
+                width: 150px;
+                height: 200px;
+            }
+
+            .contact-section {
+                width: 100%;
+                max-width: 350px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .text {
+                font-size: 20px;
+                padding: 0 10px;
+            }
+
+            .about {
+                font-size: 16px;
+            }
+
+            .img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .nav-links {
+                font-size: 14px;
+            }
+
+            .section3, .section4, .services, .section6, .email {
+                padding: 30px 10px;
+            }
+
+            .contact-section {
+                padding: 20px;
+            }
+        }
