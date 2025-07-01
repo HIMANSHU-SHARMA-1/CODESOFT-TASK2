@@ -18,16 +18,16 @@
             box-sizing: border-box;
         }
         .text{
-             color:antiquewhite;
-    font-size:32px;
-    width: 15em;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 5px solid;
-    animation: typing 2s steps(30),
-    cursor 0.4s step-end infinite alternate;
-    animation-delay: 0.5s;
-    animation-iteration-count:1;
+            color:antiquewhite;
+            font-size:32px;
+            width: 15em;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 5px solid;
+            animation: typing 2s steps(30),
+            cursor 0.4s step-end infinite alternate;
+            animation-delay: 0.5s;
+            animation-iteration-count:1;
         }
         @keyframes typing {
             from { width: 0; }
@@ -53,8 +53,8 @@
         }
         .logo{
             height: 4rem;
-    width: 9em;
-             background-image: url(1.png);
+            width: 9em;
+            background-image: url(1.png);
             background-size: cover; /* fills entire box */
             background-repeat: no-repeat;
             background-position: center;
@@ -179,47 +179,47 @@
                 opacity: 1;
             }
         }
-        .section4{
-            background:radial-gradient(circle, #4B0082, #1a002c);
-            color: antiquewhite;
-            padding: 60px 20px;
-            width: 100%;
-            box-sizing: border-box;
-            animation: popup 5s ease-in-out;
-            animation-delay: 0.2s;
+.section4{
+     background:radial-gradient(circle, #4B0082, #1a002c);
+    color: antiquewhite;
+    padding: 60px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    animation: popup 5s ease-in-out;
+    animation-delay: 0.2s;
+        }       
+.certihead{
+    text-align: center;
+    margin-bottom: 40px;
         }
-        .certihead{
-            text-align: center;
-            margin-bottom: 40px;
+.certificates{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
         }
-        .certificates{
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            gap: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+.cert1, .cert2, .cert3{
+    border-radius: 10px;
+    height: 200px;
+    width: 280px;
+    transition: transform 0.3s ease;
         }
-        .cert1, .cert2, .cert3{
-            border-radius: 10px;
-            height: 200px;
-            width: 280px;
-            transition: transform 0.3s ease;
+.cert1{
+    background-image: url(css.jpg);
+    background-size: cover; 
+    background-position: center;
+    animation: move1 1.5s ease-in-out;
+    animation-delay: 1.9s;
         }
-        .cert1{
-            background-image: url(css.jpg);
-            background-size: cover; 
-            background-position: center;
-            animation: move1 1.5s ease-in-out;
-            animation-delay: 1.9s;
-}
 .cert2{
-            animation: move3 1.5s ease-in-out;
-            animation-delay: 1.9s;
+    animation: move3 1.5s ease-in-out;
+    animation-delay: 1.9s;
 }
 .cert3{
-            animation: move2 1.5s ease-in-out;
-            animation-delay: 1.9s;
+    animation: move2 1.5s ease-in-out;
+    animation-delay: 1.9s;
 }
 .cert2, .cert3{
     background-image: url(version.png);
@@ -267,43 +267,43 @@
     }
 }
 .cert1:hover, .cert2:hover, .cert3:hover{
-            transform: scale(1.05);
+    transform: scale(1.05);
         }
-        .services{
-            background:radial-gradient(circle, #4B0082, #1a002c);
-            color: antiquewhite;
-            padding: 60px 20px;
-            width: 100%;
-            box-sizing: border-box;
-            animation: slidein 3s linear;
-            animation-delay: 0.4s;
+.services{
+    background:radial-gradient(circle, #4B0082, #1a002c);
+    color: antiquewhite;
+    padding: 60px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    animation: slidein 3s linear;
+    animation-delay: 0.4s;
         }
-        .services h2 {
-            text-align: center;
-            margin-bottom: 40px;
+.services h2 {
+    text-align: center;
+    margin-bottom: 40px;
         }
-        .services-container{
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
+.services-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
         }
-        .service{
-            background-color: white;
-            color: black;
-            padding: 30px;
-            border-radius: 10px;
-            width: 300px;
-            text-align: center;
-            transition: transform 0.3s ease;
+.service{
+    background-color: white;
+    color: black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
         }
-        .service:hover{
-            transform: scale(1.05);
+.service:hover{
+    transform: scale(1.05);
         }
-        .icon1, .icon2, .icon3{
-        height: 133px;
+.icon1, .icon2, .icon3{
+    height: 133px;
     width: 330px;
     border-radius: 10px;
     background-image: url(3.png);
@@ -337,28 +337,28 @@
     transition: transform 0.3s ease-in-out;
 }
 
-        @keyframes slidein {
-            from {
-                transform: translateX(-100%);
-                opacity: 0;
+@keyframes slidein {
+    from {
+    transform: translateX(-100%);
+    opacity: 0;
+         }
+    to {
+    transform: translateX(0);
+     opacity: 1;
             }
-            to {
-                transform: translateX(0);
-                opacity: 1;
-            }
+        }        
+.section6{
+    background:radial-gradient(circle, #4B0082, #1a002c);
+    color: antiquewhite;
+    padding: 60px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    animation: moveup 4s linear;
+    animation-delay: 0.5s;
         }
-        .section6{
-            background:radial-gradient(circle, #4B0082, #1a002c);
-            color: antiquewhite;
-            padding: 60px 20px;
-            width: 100%;
-            box-sizing: border-box;
-            animation: moveup 4s linear;
-            animation-delay: 0.5s;
-        }
-        .section-title {
-            text-align: center;
-            margin-bottom: 40px;
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
         }
         .projects-grid1, .projects-grid2{
             display: flex;
@@ -425,11 +425,11 @@
         .eimage{
             height: 22em;
             width: 200px;
-           background-image: url(8.png);
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    filter: drop-shadow(10px 7px 10px rgba(10, 0, 0, 0.653));
+            background-image: url(8.png);
+            background-size: cover; 
+            background-repeat: no-repeat;
+            background-position: center;
+            filter: drop-shadow(10px 7px 10px rgba(10, 0, 0, 0.653));
         } 
         .contact-section{
             background-color: rgba(0, 0, 0, 0.3);
@@ -471,9 +471,8 @@
             background-color: #ff1df4;
         }
         .footer{
-            display: flex
-;
-    justify-content: center;
+            display: flex;
+            justify-content: center;
             display: flex;
             justify-content: center;
             background-color: rgba(0, 0, 0, 0.75);
@@ -558,6 +557,14 @@
             .cert1, .cert2, .cert3 {
                 width: 100%;
                 max-width: 300px;
+            }
+            .icon1{
+                width:100%;
+                max-width: 268px;
+            }
+            .icon2, .icon3{
+                width:100%;
+                max-width: 274px;
             }
 
             .services {
